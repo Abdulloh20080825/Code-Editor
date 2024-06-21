@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../sass/style.css" />
+    <style>
+    </style>
+    <title>Code Editor</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="editor">
+        <div class="html editotlang">
+          <h1>HTML</h1>
+          <textarea name="html" class="html" value="html"></textarea>
+        </div>
+        <div class="css editotlang">
+          <h1>CSS</h1>
+          <textarea name="css" class="css"></textarea>
+        </div>
+        <div class="select">
+          <button class="btn btn-danger delete">Delete</button>
+          <button class="btn btn-success run">Run</button>
+        </div>
+      </div>
+    </div>
+    <div class="output"></div>
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>
